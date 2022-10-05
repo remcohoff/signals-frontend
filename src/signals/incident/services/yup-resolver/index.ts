@@ -15,6 +15,7 @@ export function setUpSchema(controls: Controls) {
           (acc: Array<[string, any]>, [key, control]: [string, any]) => {
             const validators: any = control?.options?.validators
 
+            if (!validators) return acc
             /**
              * Here all the unknown fields, coming from the backend when
              * showVulaanControls flag is true, are validated on their top
@@ -24,6 +25,7 @@ export function setUpSchema(controls: Controls) {
             // @ts-ignore
             const validationField = yup.lazy((obj) => {
               let validatorForField
+
               if (
                 ['locatie', 'location', 'priority', 'type'].includes(key) ||
                 ((key.startsWith('extra') || key === 'source') &&
@@ -44,12 +46,19 @@ export function setUpSchema(controls: Controls) {
                 validatorForField = yup.object().shape({})
               } else if (typeof obj === 'string') {
                 validatorForField = yup.string()
+              } else if (typeof obj === 'number') {
+                validatorForField = yup.number()
               } else {
                 validatorForField = yup.mixed()
               }
 
-              return addValidators(validators, validatorForField)
+              if (obj) {
+                validatorForField = addValidators(validators, validatorForField)
+              }
+
+              return validatorForField
             })
+
             acc.push([key, validationField])
 
             return acc
@@ -74,13 +83,6 @@ function addValidators(validators: any, validationField: AnyObject) {
 
         if (validator === 'email') {
           validationField = validationField.email()
-        }
-
-        if (Number.parseInt(validator)) {
-          validationField = validationField.max(
-            Number.parseInt(validator),
-            validator
-          )
         }
 
         if (
