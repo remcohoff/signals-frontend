@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components'
 
-import { Close } from '@amsterdam/asc-assets'
-import { breakpoint, Button, themeSpacing } from '@amsterdam/asc-ui'
+import { Close } from '@remcohoff/asc-assets'
+import { breakpoint, Button, themeSpacing } from '@remcohoff/asc-ui'
 import { DETAIL_PANEL_WIDTH } from '../../../constants'
 import type { LegendPanelProps } from './LegendPanel'
 

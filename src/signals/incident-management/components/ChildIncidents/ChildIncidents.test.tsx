@@ -2,7 +2,7 @@
 // Copyright (C) 2020 - 2021 Gemeente Amsterdam
 import { render, screen } from '@testing-library/react'
 import 'jest-styled-components'
-import { themeColor, ascDefaultTheme } from '@amsterdam/asc-ui'
+import { themeColor, ascDefaultTheme } from '@remcohoff/asc-ui'
 
 import { withAppContext } from 'test/utils'
 import { INCIDENT_URL } from 'signals/incident-management/routes'

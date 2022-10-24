@@ -3,7 +3,7 @@
 import { forwardRef, useState, useCallback, useEffect } from 'react'
 
 import type { ChangeEvent, ReactNode, ForwardedRef } from 'react'
-import type { TextAreaProps as AscTextAreaProps } from '@amsterdam/asc-ui/es/components/TextArea'
+import type { TextAreaProps as AscTextAreaProps } from '@remcohoff/asc-ui/es/components/TextArea'
 
 import Label from 'components/Label'
 import {

@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import { Link, themeColor, themeSpacing } from '@amsterdam/asc-ui'
+import { Link, themeColor, themeSpacing } from '@remcohoff/asc-ui'
 
 export const StyledDefaultText = styled.div<{ empty?: boolean }>`
   margin-bottom: ${themeSpacing(8)};

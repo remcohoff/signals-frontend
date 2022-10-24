@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { connect } from 'react-redux'
 import { createStructuredSelector } from 'reselect'
-import { Row, Column, themeSpacing, CompactPager } from '@amsterdam/asc-ui'
+import { Row, Column, themeSpacing, CompactPager } from '@remcohoff/asc-ui'
 import { useParams, useHistory } from 'react-router-dom'
 
 import PageHeader from 'signals/settings/components/PageHeader'

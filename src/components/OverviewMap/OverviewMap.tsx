@@ -13,7 +13,7 @@ import styled from 'styled-components'
 import { useSelector } from 'react-redux'
 import format from 'date-fns/format'
 import subDays from 'date-fns/addDays'
-import { themeSpacing } from '@amsterdam/asc-ui'
+import { themeSpacing } from '@remcohoff/asc-ui'
 import { ViewerContainer } from '@amsterdam/arm-core'
 
 import type {

@@ -2,8 +2,8 @@
 // Copyright (C) 2022 Gemeente Amsterdam
 import type { FunctionComponent, ReactNode } from 'react'
 import styled from 'styled-components'
-import { ChevronLeft } from '@amsterdam/asc-assets'
-import { themeColor } from '@amsterdam/asc-ui'
+import { ChevronLeft } from '@remcohoff/asc-assets'
+import { themeColor } from '@remcohoff/asc-ui'
 import Button from 'components/Button'
 
 const StyledButton = styled(Button)`

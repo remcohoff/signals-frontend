@@ -2,7 +2,7 @@
 // Copyright (C) 2019 - 2021 Gemeente Amsterdam
 import { useContext } from 'react'
 import styled from 'styled-components'
-import { Button, themeSpacing, Row, Column } from '@amsterdam/asc-ui'
+import { Button, themeSpacing, Row, Column } from '@remcohoff/asc-ui'
 
 import { markerIcon } from 'shared/services/configuration/map-markers'
 

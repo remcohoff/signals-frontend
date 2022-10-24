@@ -2,7 +2,7 @@
 // Copyright (C) 2022 Gemeente Amsterdam
 import { useCallback } from 'react'
 
-import { Heading } from '@amsterdam/asc-ui'
+import { Heading } from '@remcohoff/asc-ui'
 import type { LatLngLiteral } from 'leaflet'
 
 import { formatAddress } from 'shared/services/format-address'

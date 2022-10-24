@@ -2,7 +2,7 @@
 // Copyright (C) 2021 Gemeente Amsterdam
 import type { ReactElement } from 'react'
 import ReactMarkdown from 'react-markdown'
-import { Heading } from '@amsterdam/asc-ui'
+import { Heading } from '@remcohoff/asc-ui'
 import isString from 'lodash/isString'
 import get from 'lodash/get'
 

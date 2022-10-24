@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import { Controller, useForm, FormProvider } from 'react-hook-form'
 import { useHistory } from 'react-router-dom'
 
-import { Heading, themeSpacing } from '@amsterdam/asc-ui'
+import { Heading, themeSpacing } from '@remcohoff/asc-ui'
 
 import Button from 'components/Button'
 import AddNote, { getAddNoteError } from 'components/AddNote'

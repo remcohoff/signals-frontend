@@ -17,8 +17,8 @@ const devMode = process.env.NODE_ENV !== 'production'
 const __rootdir = pkgDir.sync()
 
 const esModules = [
-  path.resolve(__rootdir, 'node_modules/@amsterdam/asc-assets'),
-  path.resolve(__rootdir, 'node_modules/@amsterdam/asc-ui'),
+  path.resolve(__rootdir, 'node_modules/@remcohoff/asc-assets'),
+  path.resolve(__rootdir, 'node_modules/@remcohoff/asc-ui'),
   path.resolve(__rootdir, 'node_modules/@amsterdam/arm-core'),
   path.resolve(__rootdir, 'node_modules/@amsterdam/react-maps'),
 ]

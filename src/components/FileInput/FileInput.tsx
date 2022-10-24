@@ -1,4 +1,4 @@
-import { Enlarge, TrashBin } from '@amsterdam/asc-assets'
+import { Enlarge, TrashBin } from '@remcohoff/asc-assets'
 import { ErrorWrapper } from 'components/ErrorMessage'
 import type { FunctionComponent } from 'react'
 import { useCallback, useState, useEffect } from 'react'

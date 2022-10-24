@@ -1,4 +1,4 @@
-import { Button, Column, ErrorMessage, Label, Row } from '@amsterdam/asc-ui'
+import { Button, Column, ErrorMessage, Label, Row } from '@remcohoff/asc-ui'
 import PageHeader from 'signals/settings/components/PageHeader'
 import { Fragment, useCallback, useEffect } from 'react'
 import { useFetch } from 'hooks'

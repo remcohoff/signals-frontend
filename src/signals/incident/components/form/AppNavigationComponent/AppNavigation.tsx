@@ -2,7 +2,7 @@
 // Copyright (C) 2022 Gemeente Amsterdam
 import { Fragment, useCallback } from 'react'
 
-import { Heading } from '@amsterdam/asc-ui'
+import { Heading } from '@remcohoff/asc-ui'
 import { useDispatch } from 'react-redux'
 
 import { postMessage } from 'containers/App/actions'

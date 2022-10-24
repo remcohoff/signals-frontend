@@ -2,7 +2,7 @@
 // Copyright (C) 2019 - 2021 Gemeente Amsterdam
 import styled from 'styled-components'
 
-import { Heading, Paragraph, themeSpacing } from '@amsterdam/asc-ui'
+import { Heading, Paragraph, themeSpacing } from '@remcohoff/asc-ui'
 import type { FunctionComponent } from 'react'
 
 const StyledHeading = styled(Heading)`

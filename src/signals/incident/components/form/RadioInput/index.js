@@ -4,7 +4,7 @@ import { useCallback } from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import { useDispatch } from 'react-redux'
-import { Label } from '@amsterdam/asc-ui'
+import { Label } from '@remcohoff/asc-ui'
 
 import Radio from 'components/RadioButton'
 

@@ -9,7 +9,7 @@ import {
   themeColor,
   themeSpacing,
   Row,
-} from '@amsterdam/asc-ui'
+} from '@remcohoff/asc-ui'
 
 import Button from 'components/Button'
 import InfoText from 'components/InfoText'

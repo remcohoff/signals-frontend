@@ -2,7 +2,7 @@
 // Copyright (C) 2019 - 2021 Gemeente Amsterdam
 import { useCallback, useEffect, useState } from 'react'
 import styled, { css } from 'styled-components'
-import { Label } from '@amsterdam/asc-ui'
+import { Label } from '@remcohoff/asc-ui'
 
 import type { FC, ReactNode } from 'react'
 

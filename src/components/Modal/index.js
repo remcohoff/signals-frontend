@@ -9,8 +9,8 @@ import {
   Modal as ASCModal,
   Heading,
   themeColor,
-} from '@amsterdam/asc-ui'
-import { Close as CloseIcon } from '@amsterdam/asc-assets'
+} from '@remcohoff/asc-ui'
+import { Close as CloseIcon } from '@remcohoff/asc-assets'
 
 export const ModalWrapper = styled.div`
   position: fixed;

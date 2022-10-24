@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { Link } from 'react-router-dom'
 import { createStructuredSelector } from 'reselect'
-import { Row, Column, Button } from '@amsterdam/asc-ui'
+import { Row, Column, Button } from '@remcohoff/asc-ui'
 import styled from 'styled-components'
 
 import LoadingIndicator from 'components/LoadingIndicator'

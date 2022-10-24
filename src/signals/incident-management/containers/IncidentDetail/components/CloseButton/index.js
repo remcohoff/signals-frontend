@@ -2,8 +2,8 @@
 // Copyright (C) 2020 - 2021 Gemeente Amsterdam
 import { useContext } from 'react'
 import PropTypes from 'prop-types'
-import { themeSpacing } from '@amsterdam/asc-ui'
-import { Close as CloseIcon } from '@amsterdam/asc-assets'
+import { themeSpacing } from '@remcohoff/asc-ui'
+import { Close as CloseIcon } from '@remcohoff/asc-assets'
 import styled from 'styled-components'
 
 import Button from 'components/Button'

@@ -10,8 +10,8 @@ import type {
 
 import { MapPanelContext } from '@amsterdam/arm-core'
 import type { ZoomLevel } from '@amsterdam/arm-core/lib/types'
-import { Close } from '@amsterdam/asc-assets'
-import { Button, themeColor, themeSpacing } from '@amsterdam/asc-ui'
+import { Close } from '@remcohoff/asc-assets'
+import { Button, themeColor, themeSpacing } from '@remcohoff/asc-ui'
 import styled from 'styled-components'
 
 import useLayerVisible from '../../hooks/useLayerVisible'

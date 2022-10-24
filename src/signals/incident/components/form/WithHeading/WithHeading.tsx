@@ -1,7 +1,7 @@
 import type { FC } from 'react'
 import type { FormMeta, FormOptions } from 'types/reactive-form'
 
-import { Heading, themeSpacing } from '@amsterdam/asc-ui'
+import { Heading, themeSpacing } from '@remcohoff/asc-ui'
 import styled from 'styled-components'
 
 type WrapMeta = FormMeta & {

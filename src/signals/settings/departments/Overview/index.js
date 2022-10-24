@@ -3,7 +3,7 @@
 import { Fragment, useCallback } from 'react'
 import styled from 'styled-components'
 import { useSelector } from 'react-redux'
-import { Row, Column } from '@amsterdam/asc-ui'
+import { Row, Column } from '@remcohoff/asc-ui'
 import { useHistory } from 'react-router-dom'
 
 import PageHeader from 'signals/settings/components/PageHeader'

@@ -2,7 +2,7 @@
 // Copyright (C) 2022 Gemeente Amsterdam
 import type { FC } from 'react'
 import styled from 'styled-components'
-import { themeSpacing } from '@amsterdam/asc-ui'
+import { themeSpacing } from '@remcohoff/asc-ui'
 import FormFooter from 'components/FormFooter'
 import { FORM_FOOTER_HEIGHT } from 'components/FormFooter/FormFooter'
 import ModalHeader from '../ModalHeader/ModalHeader'

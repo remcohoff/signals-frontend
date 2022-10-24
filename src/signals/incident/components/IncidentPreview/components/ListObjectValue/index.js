@@ -2,7 +2,7 @@
 // Copyright (C) 2019 - 2021 Gemeente Amsterdam
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { List, ListItem } from '@amsterdam/asc-ui'
+import { List, ListItem } from '@remcohoff/asc-ui'
 
 const StyledList = styled(List)`
   margin-bottom: 0;

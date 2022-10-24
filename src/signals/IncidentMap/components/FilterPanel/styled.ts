@@ -7,7 +7,7 @@ import {
   Label,
   themeColor,
   themeSpacing,
-} from '@amsterdam/asc-ui'
+} from '@remcohoff/asc-ui'
 import styled from 'styled-components'
 
 export const StyledLabel = styled(Label)`

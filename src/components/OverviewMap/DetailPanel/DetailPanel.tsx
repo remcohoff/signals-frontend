@@ -7,8 +7,8 @@ import {
   Link as AscLink,
   themeColor,
   themeSpacing,
-} from '@amsterdam/asc-ui'
-import { Close } from '@amsterdam/asc-assets'
+} from '@remcohoff/asc-ui'
+import { Close } from '@remcohoff/asc-assets'
 import { Link } from 'react-router-dom'
 
 import { getIsAuthenticated } from 'shared/services/auth/auth'

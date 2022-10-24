@@ -1,4 +1,4 @@
-import { breakpoint, themeSpacing } from '@amsterdam/asc-ui'
+import { breakpoint, themeSpacing } from '@remcohoff/asc-ui'
 import styled from 'styled-components'
 
 import PDOKAutoSuggest from 'components/PDOKAutoSuggest/PDOKAutoSuggest'

@@ -2,7 +2,7 @@
 // Copyright (C) 2020 - 2021 Vereniging van Nederlandse Gemeenten, Gemeente Amsterdam
 import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
-import { breakpoint, themeSpacing } from '@amsterdam/asc-ui'
+import { breakpoint, themeSpacing } from '@remcohoff/asc-ui'
 
 import configuration from 'shared/services/configuration/configuration'
 

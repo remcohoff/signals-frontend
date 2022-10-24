@@ -3,7 +3,7 @@
 // eslint-disable-next-line no-restricted-imports
 import React from 'react'
 
-import { ThemeProvider } from '@amsterdam/asc-ui'
+import { ThemeProvider } from '@remcohoff/asc-ui'
 import { ConnectedRouter } from 'connected-react-router/immutable'
 import MapContext from 'containers/MapContext'
 import { createMemoryHistory } from 'history'

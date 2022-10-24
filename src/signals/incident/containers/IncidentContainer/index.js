@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { createStructuredSelector } from 'reselect'
 import { compose, bindActionCreators } from 'redux'
-import { Row, Column } from '@amsterdam/asc-ui'
+import { Row, Column } from '@remcohoff/asc-ui'
 
 import { getIsAuthenticated } from 'shared/services/auth/auth'
 import injectSaga from 'utils/injectSaga'

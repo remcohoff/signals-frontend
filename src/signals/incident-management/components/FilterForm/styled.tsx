@@ -3,7 +3,7 @@
 import FormFooter from 'components/FormFooter'
 
 import styled, { css } from 'styled-components'
-import { themeSpacing, themeColor } from '@amsterdam/asc-ui'
+import { themeSpacing, themeColor } from '@remcohoff/asc-ui'
 
 export const Form = styled.form`
   column-count: 2;

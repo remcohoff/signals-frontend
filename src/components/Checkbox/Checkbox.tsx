@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MPL-2.0
 // Copyright (C) 2021 Gemeente Amsterdam
+import { Checkbox } from '@remcohoff/asc-ui'
 import styled from 'styled-components'
-import { Checkbox } from '@amsterdam/asc-ui'
 
 const StyledCheckbox = styled(Checkbox)<{
   name?: string

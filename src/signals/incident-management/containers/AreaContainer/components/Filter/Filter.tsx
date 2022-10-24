@@ -1,4 +1,4 @@
-import { Heading, Icon, themeSpacing, List, ListItem } from '@amsterdam/asc-ui'
+import { Heading, Icon, themeSpacing, List, ListItem } from '@remcohoff/asc-ui'
 import styled from 'styled-components'
 import { dateToString } from 'shared/services/date-utils'
 

@@ -3,7 +3,7 @@
 import { useCallback } from 'react'
 import { useLocation } from 'react-router-dom'
 import styled from 'styled-components'
-import { Link, themeSpacing } from '@amsterdam/asc-ui'
+import { Link, themeSpacing } from '@remcohoff/asc-ui'
 import { Marker } from '@amsterdam/react-maps'
 
 import type { FC, KeyboardEvent } from 'react'

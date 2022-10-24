@@ -8,7 +8,7 @@ import {
   breakpoint,
   Paragraph,
   ascDefaultTheme,
-} from '@amsterdam/asc-ui'
+} from '@remcohoff/asc-ui'
 import LoadingIndicator from 'components/LoadingIndicator'
 import AppContext from 'containers/App/context'
 import { Wizard, Steps, Step } from 'react-albus'

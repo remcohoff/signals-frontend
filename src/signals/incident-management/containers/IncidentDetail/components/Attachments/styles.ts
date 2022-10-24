@@ -3,7 +3,7 @@ import {
   Heading,
   themeColor,
   Button as AscButton,
-} from '@amsterdam/asc-ui'
+} from '@remcohoff/asc-ui'
 import LoadingIndicator from 'components/LoadingIndicator'
 import styled from 'styled-components'
 

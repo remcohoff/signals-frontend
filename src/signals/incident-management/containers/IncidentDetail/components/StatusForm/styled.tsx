@@ -10,8 +10,8 @@ import {
   Row,
   themeColor,
   themeSpacing,
-} from '@amsterdam/asc-ui'
-import type { AlertLevel } from '@amsterdam/asc-ui'
+} from '@remcohoff/asc-ui'
+import type { AlertLevel } from '@remcohoff/asc-ui'
 
 import Button from 'components/Button'
 

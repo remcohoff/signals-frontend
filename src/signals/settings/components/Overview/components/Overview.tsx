@@ -8,13 +8,13 @@ import {
   Buildings,
   ThumbnailResults,
   Download,
-} from '@amsterdam/asc-assets'
+} from '@remcohoff/asc-assets'
 import {
   TopTaskLink,
   CompactThemeProvider,
   themeSpacing,
   Row,
-} from '@amsterdam/asc-ui'
+} from '@remcohoff/asc-ui'
 import {
   USERS_URL,
   ROLES_URL,

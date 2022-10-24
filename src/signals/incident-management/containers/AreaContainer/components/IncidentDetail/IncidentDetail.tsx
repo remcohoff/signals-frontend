@@ -4,7 +4,7 @@ import {
   themeSpacing,
   Link as AscLink,
   themeColor,
-} from '@amsterdam/asc-ui'
+} from '@remcohoff/asc-ui'
 import styled from 'styled-components'
 
 import BackLink from 'components/BackLink'

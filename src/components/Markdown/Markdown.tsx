@@ -2,7 +2,7 @@
 // Copyright (C) 2018 - 2022 Gemeente Amsterdam
 import type { FC } from 'react'
 
-import { Link as AscLink } from '@amsterdam/asc-ui'
+import { Link as AscLink } from '@remcohoff/asc-ui'
 import Paragraph from 'components/Paragraph'
 import ReactMarkdown from 'react-markdown'
 import type { ReactMarkdownOptions } from 'react-markdown'

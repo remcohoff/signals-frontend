@@ -6,7 +6,7 @@ import { connect } from 'react-redux'
 import { useParams, useHistory, useLocation } from 'react-router-dom'
 import { createStructuredSelector } from 'reselect'
 import { bindActionCreators } from 'redux'
-import { Row, Column } from '@amsterdam/asc-ui'
+import { Row, Column } from '@remcohoff/asc-ui'
 
 import routes from 'signals/settings/routes'
 import PageHeader from 'signals/settings/components/PageHeader'

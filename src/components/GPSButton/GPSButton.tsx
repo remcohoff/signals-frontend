@@ -3,8 +3,8 @@
 import { useCallback, useState } from 'react'
 import type { FunctionComponent, HTMLProps } from 'react'
 
-import { Button, themeSpacing } from '@amsterdam/asc-ui'
-import { themeColor } from '@amsterdam/asc-ui'
+import { Button, themeSpacing } from '@remcohoff/asc-ui'
+import { themeColor } from '@remcohoff/asc-ui'
 import styled from 'styled-components'
 
 import LoadingIndicator from 'components/LoadingIndicator'

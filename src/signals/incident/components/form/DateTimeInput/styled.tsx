@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { themeSpacing } from '@amsterdam/asc-ui'
+import { themeSpacing } from '@remcohoff/asc-ui'
 
 import Label from 'components/Label'
 

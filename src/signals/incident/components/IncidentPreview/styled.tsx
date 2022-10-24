@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { themeSpacing, themeColor, breakpoint } from '@amsterdam/asc-ui'
+import { themeSpacing, themeColor, breakpoint } from '@remcohoff/asc-ui'
 
 export const Section = styled.section`
   position: relative;

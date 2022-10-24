@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import { Heading, themeSpacing, breakpoint } from '@amsterdam/asc-ui'
+import { Heading, themeSpacing, breakpoint } from '@remcohoff/asc-ui'
 
 export const StyledH1 = styled(Heading)`
   margin-top: ${themeSpacing(6)};

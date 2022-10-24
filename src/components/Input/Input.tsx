@@ -9,8 +9,8 @@ import {
   themeColor,
   Typography,
   themeSpacing,
-} from '@amsterdam/asc-ui'
-import type { InputProps as AscInputProps } from '@amsterdam/asc-ui/es/components/Input/Input'
+} from '@remcohoff/asc-ui'
+import type { InputProps as AscInputProps } from '@remcohoff/asc-ui/es/components/Input/Input'
 
 const Hint = styled.span`
   color: ${themeColor('tint', 'level5')};

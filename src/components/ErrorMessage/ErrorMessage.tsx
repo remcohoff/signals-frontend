@@ -5,7 +5,7 @@ import {
   ErrorMessage as AscErrorMessage,
   themeColor,
   themeSpacing,
-} from '@amsterdam/asc-ui'
+} from '@remcohoff/asc-ui'
 
 // custom error message component that renders the correct font according to the design system guidelines
 const ErrorMessage = styled(AscErrorMessage).attrs(() => ({

@@ -2,7 +2,7 @@
 // Copyright (C) 2019 - 2021 Gemeente Amsterdam
 import { render, act, screen } from '@testing-library/react'
 import { history, withAppContext } from 'test/utils'
-import { ascDefaultTheme as theme } from '@amsterdam/asc-ui'
+import { ascDefaultTheme as theme } from '@remcohoff/asc-ui'
 import 'jest-styled-components'
 import { mocked } from 'jest-mock'
 

@@ -6,7 +6,7 @@ import { connect } from 'react-redux'
 import { createStructuredSelector } from 'reselect'
 import { bindActionCreators } from 'redux'
 import styled from 'styled-components'
-import { themeColor, themeSpacing } from '@amsterdam/asc-ui'
+import { themeColor, themeSpacing } from '@remcohoff/asc-ui'
 
 import {
   applyFilter,

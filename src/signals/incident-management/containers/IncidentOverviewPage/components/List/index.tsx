@@ -5,7 +5,7 @@ import { useContext } from 'react'
 import { Link, useHistory } from 'react-router-dom'
 import parseISO from 'date-fns/parseISO'
 import differenceInCalendarDays from 'date-fns/differenceInCalendarDays'
-import { Play } from '@amsterdam/asc-assets'
+import { Play } from '@remcohoff/asc-assets'
 
 import { string2date, string2time } from 'shared/services/string-parser'
 import {

@@ -2,7 +2,7 @@
 // Copyright (C) 2022 Gemeente Amsterdam
 import { useEffect, useState } from 'react'
 
-import { sizes } from '@amsterdam/asc-ui/lib/theme/default/breakpoints'
+import { sizes } from '@remcohoff/asc-ui/lib/theme/default/breakpoints'
 
 import { featureToCoordinates } from 'shared/services/map-location'
 import type { PdokAddress } from 'shared/services/map-location'

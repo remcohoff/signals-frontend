@@ -2,7 +2,7 @@
 // Copyright (C) 2018 - 2022 Gemeente Amsterdam
 import { Fragment } from 'react'
 import { Link } from 'react-router-dom'
-import { Heading, Link as AscLink } from '@amsterdam/asc-ui'
+import { Heading, Link as AscLink } from '@remcohoff/asc-ui'
 
 import type { FC } from 'react'
 import type { Incident, ValueObject } from 'types/incident'

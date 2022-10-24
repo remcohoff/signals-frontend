@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MPL-2.0
 // Copyright (C) 2018 - 2022 Gemeente Amsterdam
-import { themeColor, themeSpacing } from '@amsterdam/asc-ui'
+import { themeColor, themeSpacing } from '@remcohoff/asc-ui'
 import Markdown from 'components/Markdown'
 import get from 'lodash/get'
 import PropTypes from 'prop-types'

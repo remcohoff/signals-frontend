@@ -2,7 +2,7 @@
 // Copyright (C) 2019 - 2021 Gemeente Amsterdam
 import { useCallback } from 'react'
 
-import { SearchBar, styles } from '@amsterdam/asc-ui'
+import { SearchBar, styles } from '@remcohoff/asc-ui'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { compose, bindActionCreators } from 'redux'

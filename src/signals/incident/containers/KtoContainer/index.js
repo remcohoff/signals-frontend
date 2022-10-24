@@ -8,7 +8,7 @@ import {
   Heading,
   Paragraph,
   themeSpacing,
-} from '@amsterdam/asc-ui'
+} from '@remcohoff/asc-ui'
 import { useParams } from 'react-router-dom'
 import { compose } from 'redux'
 

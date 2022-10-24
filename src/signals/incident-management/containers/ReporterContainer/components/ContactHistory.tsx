@@ -11,7 +11,7 @@ import HistoryList from 'components/HistoryList'
 import { useDispatch } from 'react-redux'
 import type { History } from 'types/history'
 import styled from 'styled-components'
-import { themeColor, themeSpacing } from '@amsterdam/asc-ui'
+import { themeColor, themeSpacing } from '@remcohoff/asc-ui'
 
 const headerMapper: Record<string, string> = {
   ['Feedback van melder ontvangen']: 'Feedback',

@@ -8,7 +8,7 @@ import type { RevGeo } from 'types/pdok/revgeo'
 
 import useDebounce from 'hooks/useDebounce'
 import useFetch from 'hooks/useFetch'
-import { Close } from '@amsterdam/asc-assets'
+import { Close } from '@remcohoff/asc-assets'
 import { Wrapper, Input, List, ClearInput } from './styled'
 
 export const INPUT_DELAY = 350

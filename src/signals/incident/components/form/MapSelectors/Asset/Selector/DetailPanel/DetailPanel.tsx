@@ -9,7 +9,7 @@ import {
   Button,
   breakpoint,
   ascDefaultTheme,
-} from '@amsterdam/asc-ui'
+} from '@remcohoff/asc-ui'
 import { useMediaQuery } from 'react-responsive'
 
 import type { KeyboardEvent, ChangeEvent, FC } from 'react'
@@ -23,7 +23,7 @@ import {
 
 import type { PdokResponse } from 'shared/services/map-location'
 import { formatAddress } from 'shared/services/format-address'
-import { ChevronLeft } from '@amsterdam/asc-assets'
+import { ChevronLeft } from '@remcohoff/asc-assets'
 import { useDispatch } from 'react-redux'
 import { closeMap } from 'signals/incident/containers/IncidentContainer/actions'
 

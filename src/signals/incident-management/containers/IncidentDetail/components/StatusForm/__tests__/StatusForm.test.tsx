@@ -7,7 +7,7 @@ import {
   screen,
   waitFor,
 } from '@testing-library/react'
-import { ThemeProvider } from '@amsterdam/asc-ui'
+import { ThemeProvider } from '@remcohoff/asc-ui'
 
 import incidentJSON from 'utils/__tests__/fixtures/incident.json'
 import {

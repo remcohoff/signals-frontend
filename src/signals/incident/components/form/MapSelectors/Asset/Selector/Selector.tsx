@@ -10,7 +10,7 @@ import {
 } from 'react'
 import ReactDOM from 'react-dom'
 import { Marker } from '@amsterdam/react-maps'
-import { useMatchMedia } from '@amsterdam/asc-ui/lib/utils/hooks'
+import { useMatchMedia } from '@remcohoff/asc-ui/lib/utils/hooks'
 import { disablePageScroll, enablePageScroll } from 'scroll-lock'
 
 import type { ReactElement, FC } from 'react'

@@ -3,7 +3,7 @@
 import { useCallback, useContext, useMemo } from 'react'
 import styled from 'styled-components'
 import { Link, useLocation } from 'react-router-dom'
-import { themeColor, themeSpacing, Heading, styles } from '@amsterdam/asc-ui'
+import { themeColor, themeSpacing, Heading, styles } from '@remcohoff/asc-ui'
 
 import BackLink from 'components/BackLink'
 import Button from 'components/Button'

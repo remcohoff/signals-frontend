@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MPL-2.0
 // Copyright (C) 2020 - 2021 Gemeente Amsterdam
-import type { AlertLevel } from '@amsterdam/asc-ui'
+import type { AlertLevel } from '@remcohoff/asc-ui'
 import {
   changeStatusOptionList,
   isStatusClosed,

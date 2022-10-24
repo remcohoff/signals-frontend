@@ -2,7 +2,7 @@
 // Copyright (C) 2019 - 2021 Gemeente Amsterdam
 import type { FunctionComponent } from 'react'
 import styled from 'styled-components'
-import { RadioGroup, Label } from '@amsterdam/asc-ui'
+import { RadioGroup, Label } from '@remcohoff/asc-ui'
 
 import RadioButton from 'components/RadioButton'
 

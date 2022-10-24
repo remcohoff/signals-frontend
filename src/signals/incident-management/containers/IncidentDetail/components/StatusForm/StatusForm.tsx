@@ -2,7 +2,7 @@
 // Copyright (C) 2019 - 2022 Gemeente Amsterdam
 import type { FunctionComponent, Reducer, SyntheticEvent } from 'react'
 import { useCallback, useReducer, useContext, useState, useEffect } from 'react'
-import { Alert, Heading, Label, Select } from '@amsterdam/asc-ui'
+import { Alert, Heading, Label, Select } from '@remcohoff/asc-ui'
 import { disablePageScroll, enablePageScroll } from 'scroll-lock'
 import { useFetch, useEventEmitter } from 'hooks'
 

@@ -2,7 +2,7 @@
 // Copyright (C) 2019 - 2022 Gemeente Amsterdam
 import { Fragment, useContext } from 'react'
 import styled from 'styled-components'
-import { themeSpacing } from '@amsterdam/asc-ui'
+import { themeSpacing } from '@remcohoff/asc-ui'
 
 import { getListValueByKey } from 'shared/services/list-helpers/list-helpers'
 import { locationType } from 'shared/types'

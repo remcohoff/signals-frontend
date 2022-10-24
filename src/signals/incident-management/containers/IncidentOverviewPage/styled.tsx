@@ -8,7 +8,7 @@ import {
   themeColor,
   Link,
   CompactPager,
-} from '@amsterdam/asc-ui'
+} from '@remcohoff/asc-ui'
 import Button from 'components/Button'
 import Paragraph from 'components/Paragraph'
 

@@ -3,7 +3,7 @@
 import type { CSSProperties, FunctionComponent } from 'react'
 import { useCallback } from 'react'
 
-import { Icon } from '@amsterdam/asc-ui'
+import { Icon } from '@remcohoff/asc-ui'
 
 import type { Incident } from '../../types'
 import { DetailPanel } from './DetailPanel'

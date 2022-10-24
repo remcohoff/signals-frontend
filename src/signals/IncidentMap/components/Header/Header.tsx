@@ -5,7 +5,7 @@ import {
   MenuItem as Item,
   Heading,
   MenuToggle,
-} from '@amsterdam/asc-ui'
+} from '@remcohoff/asc-ui'
 import { useMediaQuery } from 'react-responsive'
 
 import Logo from 'components/Logo'

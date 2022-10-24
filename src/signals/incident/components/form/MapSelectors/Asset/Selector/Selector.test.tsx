@@ -32,7 +32,7 @@ jest.mock('../../hooks/useLayerVisible', () => ({
 }))
 
 let mockShowDesktopVariant: boolean
-jest.mock('@amsterdam/asc-ui/lib/utils/hooks', () => ({
+jest.mock('@remcohoff/asc-ui/lib/utils/hooks', () => ({
   useMatchMedia: () => [mockShowDesktopVariant],
 }))
 

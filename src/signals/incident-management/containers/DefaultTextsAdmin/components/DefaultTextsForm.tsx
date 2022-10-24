@@ -3,8 +3,8 @@
 
 import type { ChangeEvent, FC, SyntheticEvent } from 'react'
 
-import { Button, Label, themeColor, themeSpacing } from '@amsterdam/asc-ui'
-import { ChevronDown, ChevronUp } from '@amsterdam/asc-assets'
+import { Button, Label, themeColor, themeSpacing } from '@remcohoff/asc-ui'
+import { ChevronDown, ChevronUp } from '@remcohoff/asc-assets'
 import styled from 'styled-components'
 
 import TextInput from 'signals/incident-management/components/TextInput'

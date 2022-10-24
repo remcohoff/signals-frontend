@@ -2,8 +2,8 @@
 // Copyright (C) 2019 - 2021 Gemeente Amsterdam
 import type { FunctionComponent } from 'react'
 import { useEffect, useState, useCallback, useRef } from 'react'
-import { Column, Row } from '@amsterdam/asc-ui'
-import { Close } from '@amsterdam/asc-assets'
+import { Column, Row } from '@remcohoff/asc-ui'
+import { Close } from '@remcohoff/asc-assets'
 import { useHistory } from 'react-router-dom'
 import {
   SITE_HEADER_HEIGHT_SHORT,

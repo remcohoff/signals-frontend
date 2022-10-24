@@ -1,4 +1,4 @@
-import { themeSpacing, themeColor } from '@amsterdam/asc-ui'
+import { themeSpacing, themeColor } from '@remcohoff/asc-ui'
 import styled from 'styled-components'
 
 const VALUE_MARGIN = 70

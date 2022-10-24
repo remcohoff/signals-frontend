@@ -2,7 +2,7 @@
 // Copyright (C) 2020 - 2021 Gemeente Amsterdam
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { themeSpacing, Button } from '@amsterdam/asc-ui'
+import { themeSpacing, Button } from '@remcohoff/asc-ui'
 
 const StyledButton = styled(Button)`
   position: absolute;

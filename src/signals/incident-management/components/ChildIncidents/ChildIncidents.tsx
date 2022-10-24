@@ -3,7 +3,7 @@
 import { Fragment } from 'react'
 import styled, { css } from 'styled-components'
 import { Link } from 'react-router-dom'
-import { List, ListItem, themeColor, themeSpacing } from '@amsterdam/asc-ui'
+import { List, ListItem, themeColor, themeSpacing } from '@remcohoff/asc-ui'
 
 import ChildIncidentHistory from 'components/ChildIncidentHistory'
 import ChildIncidentDescription from 'components/ChildIncidentDescription'

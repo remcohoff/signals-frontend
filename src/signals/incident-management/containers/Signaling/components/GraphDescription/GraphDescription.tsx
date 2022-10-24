@@ -1,4 +1,4 @@
-import { Heading, themeColor, themeSpacing } from '@amsterdam/asc-ui'
+import { Heading, themeColor, themeSpacing } from '@remcohoff/asc-ui'
 import Paragraph from 'components/Paragraph'
 import type { FunctionComponent } from 'react'
 import styled from 'styled-components'

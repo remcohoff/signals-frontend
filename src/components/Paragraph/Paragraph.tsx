@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Paragraph as AscParagraph, themeColor } from '@amsterdam/asc-ui'
+import { Paragraph as AscParagraph, themeColor } from '@remcohoff/asc-ui'
 
 const Paragraph = styled(AscParagraph)<{ light?: boolean }>`
   font-size: 16px;

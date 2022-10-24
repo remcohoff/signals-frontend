@@ -1,15 +1,16 @@
 // SPDX-License-Identifier: MPL-2.0
 // Copyright (C) 2019 - 2022 Gemeente Amsterdam
 import { useRef } from 'react'
+import styled from 'styled-components'
+import PropTypes from 'prop-types'
+import { Heading, themeColor, themeSpacing } from '@remcohoff/asc-ui'
 
-import { Heading, themeColor, themeSpacing } from '@amsterdam/asc-ui'
 import { yupResolver } from '@hookform/resolvers/yup'
 import Button from 'components/Button'
 import Checkbox from 'components/Checkbox'
 import ErrorMessage from 'components/ErrorMessage'
 import Label from 'components/Label'
 import TextArea from 'components/TextArea'
-import PropTypes from 'prop-types'
 import { useForm } from 'react-hook-form'
 import { useDispatch, useSelector } from 'react-redux'
 import { useParams } from 'react-router-dom'
@@ -19,7 +20,6 @@ import CheckboxList from 'signals/incident-management/components/CheckboxList'
 import RadioButtonList from 'signals/incident-management/components/RadioButtonList'
 import FileInput from 'signals/incident/components/form/FileInput'
 import { updateIncident } from 'signals/incident/containers/IncidentContainer/actions'
-import styled from 'styled-components'
 import * as yup from 'yup'
 
 import { makeSelectIncidentContainer } from '../../../IncidentContainer/selectors'

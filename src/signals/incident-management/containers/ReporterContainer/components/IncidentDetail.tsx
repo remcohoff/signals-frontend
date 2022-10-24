@@ -8,7 +8,7 @@ import {
   Paragraph,
   themeColor,
   themeSpacing,
-} from '@amsterdam/asc-ui'
+} from '@remcohoff/asc-ui'
 import styled from 'styled-components'
 import format from 'date-fns/format'
 import { makeSelectSubCategories } from 'models/categories/selectors'

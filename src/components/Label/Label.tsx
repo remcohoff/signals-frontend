@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MPL-2.0
 // Copyright (C) 2020 - 2021 Gemeente Amsterdam
 import styled, { css } from 'styled-components'
-import { themeSpacing, themeColor } from '@amsterdam/asc-ui'
+import { themeSpacing, themeColor } from '@remcohoff/asc-ui'
 
 interface LabelProps {
   /** When true, will render the label with a plain font instead of a bold font */

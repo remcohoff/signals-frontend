@@ -9,7 +9,7 @@ import { useContext } from 'react'
 import {
   Close as CloseIcon,
   TrashBin as DeleteIcon,
-} from '@amsterdam/asc-assets'
+} from '@remcohoff/asc-assets'
 import Button from 'components/Button'
 import ErrorMessage from 'components/ErrorMessage'
 import { makeSelectUser, makeSelectUserCan } from 'containers/App/selectors'

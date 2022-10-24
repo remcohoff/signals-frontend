@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MPL-2.0
 // Copyright (C) 2022 Vereniging van Nederlandse Gemeenten, Gemeente Amsterdam
-import { themeSpacing, themeColor } from '@amsterdam/asc-ui'
+import { themeSpacing, themeColor } from '@remcohoff/asc-ui'
 import isEmpty from 'lodash/isEmpty'
 import PropTypes from 'prop-types'
 import { useFormContext } from 'react-hook-form'

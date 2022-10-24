@@ -17,7 +17,7 @@ import {
   themeColor,
   themeSpacing,
   Link as AscLink,
-} from '@amsterdam/asc-ui'
+} from '@remcohoff/asc-ui'
 
 import type { StatusCode } from 'signals/incident-management/definitions/types'
 import type { Department } from 'types/api/incident'

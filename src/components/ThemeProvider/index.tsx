@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MPL-2.0
 // Copyright (C) 2019 - 2021 Gemeente Amsterdam
 import type { FunctionComponent } from 'react'
-import { ThemeProvider as ASCThemeProvider } from '@amsterdam/asc-ui'
+import { ThemeProvider as ASCThemeProvider } from '@remcohoff/asc-ui'
 
 import { getIsAuthenticated } from 'shared/services/auth/auth'
 import configuration from 'shared/services/configuration/configuration'

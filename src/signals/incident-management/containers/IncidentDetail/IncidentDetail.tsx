@@ -2,7 +2,7 @@
 // Copyright (C) 2018 - 2022 Gemeente Amsterdam
 import { useReducer, useEffect, useCallback, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { themeSpacing, Row, Column } from '@amsterdam/asc-ui'
+import { themeSpacing, Row, Column } from '@remcohoff/asc-ui'
 import styled from 'styled-components'
 import { useDispatch, useSelector } from 'react-redux'
 

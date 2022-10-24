@@ -2,7 +2,7 @@
 // Copyright (C) 2022 Gemeente Amsterdam
 import type { FunctionComponent } from 'react'
 
-import { Button, Heading } from '@amsterdam/asc-ui'
+import { Button, Heading } from '@remcohoff/asc-ui'
 
 interface ButtonProps {
   meta: {

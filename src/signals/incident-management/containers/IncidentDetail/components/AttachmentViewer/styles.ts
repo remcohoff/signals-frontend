@@ -1,4 +1,4 @@
-import { Button, Modal, themeColor, themeSpacing } from '@amsterdam/asc-ui'
+import { Button, Modal, themeColor, themeSpacing } from '@remcohoff/asc-ui'
 import styled from 'styled-components'
 
 const StyledButton = styled(Button)`

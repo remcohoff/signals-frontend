@@ -2,7 +2,7 @@
 // Copyright (C) 2021 Gemeente Amsterdam
 import type { FunctionComponent } from 'react'
 import styled from 'styled-components'
-import { Heading, Row, themeSpacing } from '@amsterdam/asc-ui'
+import { Heading, Row, themeSpacing } from '@remcohoff/asc-ui'
 import { Helmet } from 'react-helmet'
 
 import configuration from 'shared/services/configuration/configuration'
@@ -48,7 +48,8 @@ const BasePage: FunctionComponent<BasePageProps> = ({
       <article>
         {pageTitle && (
           <header>
-            <StyledHeading>{pageTitle}</StyledHeading>
+            <StyledHeading> - {pageTitle} - </StyledHeading>
+            __________ -
           </header>
         )}
 

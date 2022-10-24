@@ -2,7 +2,7 @@
 // Copyright (C) 2020 - 2021 Gemeente Amsterdam
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { themeColor, Paragraph, themeSpacing } from '@amsterdam/asc-ui'
+import { themeColor, Paragraph, themeSpacing } from '@remcohoff/asc-ui'
 
 const Info = styled(Paragraph)`
   color: ${themeColor('tint', 'level5')};

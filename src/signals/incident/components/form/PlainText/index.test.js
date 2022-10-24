@@ -3,7 +3,7 @@
 /* eslint-disable  react/prop-types */
 import { render, screen } from '@testing-library/react'
 import 'jest-styled-components'
-import { themeColor, ascDefaultTheme } from '@amsterdam/asc-ui'
+import { themeColor, ascDefaultTheme } from '@remcohoff/asc-ui'
 
 import * as auth from 'shared/services/auth/auth'
 import configuration from 'shared/services/configuration/configuration'

@@ -3,7 +3,7 @@
 import { useCallback, useState } from 'react'
 import PropTypes from 'prop-types'
 
-import { RadioGroup, Radio } from '@amsterdam/asc-ui'
+import { RadioGroup, Radio } from '@remcohoff/asc-ui'
 
 import { StyledInfoText, StyledRadioLabel, StyledLabel } from '../../styled'
 

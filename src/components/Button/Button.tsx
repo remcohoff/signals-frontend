@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: MPL-2.0
 // Copyright (C) 2020 - 2021 Gemeente Amsterdam
 import styled, { css } from 'styled-components'
-import type { ButtonProps } from '@amsterdam/asc-ui'
+import type { ButtonProps } from '@remcohoff/asc-ui'
 import {
   Button as AscButton,
   themeColor,
   themeSpacing,
-} from '@amsterdam/asc-ui'
+} from '@remcohoff/asc-ui'
 
 const MIN_BUTTON_WIDTH = 90
 

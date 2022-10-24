@@ -4,7 +4,7 @@ import { useEffect, useCallback, useRef, useState } from 'react'
 import PropTypes from 'prop-types'
 import { useHistory } from 'react-router-dom'
 import styled from 'styled-components'
-import { Label, themeSpacing } from '@amsterdam/asc-ui'
+import { Label, themeSpacing } from '@remcohoff/asc-ui'
 import useFormValidation from 'hooks/useFormValidation'
 
 import Checkbox from 'components/Checkbox'

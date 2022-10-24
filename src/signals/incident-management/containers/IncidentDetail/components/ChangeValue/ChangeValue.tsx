@@ -6,7 +6,7 @@ import { useForm, Controller } from 'react-hook-form'
 import get from 'lodash/get'
 import set from 'lodash/set'
 import styled from 'styled-components'
-import { themeSpacing } from '@amsterdam/asc-ui'
+import { themeSpacing } from '@remcohoff/asc-ui'
 import {
   getListValueByKey,
   getListIconByKey,

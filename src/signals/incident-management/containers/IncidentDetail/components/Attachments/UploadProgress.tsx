@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { themeColor } from '@amsterdam/asc-ui'
+import { themeColor } from '@remcohoff/asc-ui'
 
 interface StyledUploadProgressProps {
   progress: number

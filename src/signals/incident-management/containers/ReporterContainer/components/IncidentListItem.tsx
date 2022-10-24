@@ -2,7 +2,7 @@
 // Copyright (C) 2021 Gemeente Amsterdam
 import format from 'date-fns/format'
 import styled from 'styled-components'
-import { themeColor, themeSpacing } from '@amsterdam/asc-ui'
+import { themeColor, themeSpacing } from '@remcohoff/asc-ui'
 import type { Theme } from 'types/theme'
 import ParentIncidentIcon from 'components/ParentIncidentIcon'
 import type { FunctionComponent } from 'react'

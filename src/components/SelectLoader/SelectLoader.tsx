@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Label, Spinner, themeColor } from '@amsterdam/asc-ui'
+import { Label, Spinner, themeColor } from '@remcohoff/asc-ui'
 
 import type { FC, ReactNode } from 'react'
 

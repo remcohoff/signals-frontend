@@ -2,8 +2,8 @@
 // Copyright (C) 2022 Gemeente Amsterdam
 import type { FC } from 'react'
 import styled from 'styled-components'
-import { Button, Heading, themeColor, themeSpacing } from '@amsterdam/asc-ui'
-import { Close } from '@amsterdam/asc-assets'
+import { Button, Heading, themeColor, themeSpacing } from '@remcohoff/asc-ui'
+import { Close } from '@remcohoff/asc-assets'
 
 export const Header = styled.div`
   align-items: center;

@@ -2,7 +2,7 @@
 // Copyright (C) 2022 Gemeente Amsterdam
 import { useEffect } from 'react'
 
-import { Checkbox, Heading } from '@amsterdam/asc-ui'
+import { Checkbox, Heading } from '@remcohoff/asc-ui'
 
 import { useFetch } from 'hooks'
 import configuration from 'shared/services/configuration/configuration'

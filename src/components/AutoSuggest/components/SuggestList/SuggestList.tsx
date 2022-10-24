@@ -2,8 +2,8 @@
 // Copyright (C) 2020 - 2021 Gemeente Amsterdam
 import { useEffect, useRef, useCallback } from 'react'
 import styled from 'styled-components'
-import { themeColor, themeSpacing, Icon } from '@amsterdam/asc-ui'
-import { ChevronRight } from '@amsterdam/asc-assets'
+import { themeColor, themeSpacing, Icon } from '@remcohoff/asc-ui'
+import { ChevronRight } from '@remcohoff/asc-assets'
 
 import type { FC } from 'react'
 import type { PdokResponse } from 'shared/services/map-location'

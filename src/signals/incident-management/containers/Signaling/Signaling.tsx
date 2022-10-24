@@ -1,4 +1,4 @@
-import { Heading, Row, themeSpacing, Column } from '@amsterdam/asc-ui'
+import { Heading, Row, themeSpacing, Column } from '@remcohoff/asc-ui'
 import type { FunctionComponent } from 'react'
 import { useEffect } from 'react'
 import styled from 'styled-components'

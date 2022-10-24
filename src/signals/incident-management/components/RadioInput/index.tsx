@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MPL-2.0
 // Copyright (C) 2019 - 2022 Gemeente Amsterdam
 import styled from 'styled-components'
-import { RadioGroup, Label, themeSpacing } from '@amsterdam/asc-ui'
+import { RadioGroup, Label, themeSpacing } from '@remcohoff/asc-ui'
 
 import InfoText from 'components/InfoText'
 import Radio from 'components/RadioButton'

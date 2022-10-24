@@ -2,7 +2,7 @@
 // Copyright (C) 2019 - 2022 Gemeente Amsterdam
 import { useMemo, useState } from 'react'
 
-import { Logout as LogoutIcon } from '@amsterdam/asc-assets'
+import { Logout as LogoutIcon } from '@remcohoff/asc-assets'
 import {
   Header as HeaderComponent,
   MenuButton,
@@ -12,7 +12,7 @@ import {
   themeColor,
   themeSpacing,
   breakpoint,
-} from '@amsterdam/asc-ui'
+} from '@remcohoff/asc-ui'
 import PropTypes from 'prop-types'
 import { useMediaQuery } from 'react-responsive'
 import { NavLink } from 'react-router-dom'

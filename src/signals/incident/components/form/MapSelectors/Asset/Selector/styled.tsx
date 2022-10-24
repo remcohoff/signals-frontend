@@ -4,7 +4,7 @@ import {
   Paragraph,
   themeColor,
   themeSpacing,
-} from '@amsterdam/asc-ui'
+} from '@remcohoff/asc-ui'
 
 import Map from 'components/Map'
 import ViewerContainer from 'components/ViewerContainer'

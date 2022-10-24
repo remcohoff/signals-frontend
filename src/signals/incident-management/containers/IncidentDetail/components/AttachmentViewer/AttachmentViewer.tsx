@@ -3,8 +3,8 @@
 import type { FC } from 'react'
 import { useCallback, useEffect, useState, useRef } from 'react'
 
-import { Close as CloseIcon } from '@amsterdam/asc-assets'
-import { ChevronRight, ChevronLeft } from '@amsterdam/asc-assets'
+import { Close as CloseIcon } from '@remcohoff/asc-assets'
+import { ChevronRight, ChevronLeft } from '@remcohoff/asc-assets'
 import format from 'date-fns/format'
 import parseISO from 'date-fns/parseISO'
 

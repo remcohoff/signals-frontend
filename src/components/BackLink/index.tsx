@@ -9,8 +9,8 @@ import {
   Typography,
   themeColor,
   themeSpacing,
-} from '@amsterdam/asc-ui'
-import { ChevronLeft } from '@amsterdam/asc-assets'
+} from '@remcohoff/asc-ui'
+import { ChevronLeft } from '@remcohoff/asc-assets'
 import type { FunctionComponent } from 'react'
 
 const LinkLabel = styled(Typography).attrs({

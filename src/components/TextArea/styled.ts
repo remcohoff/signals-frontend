@@ -3,7 +3,7 @@ import {
   themeColor,
   themeSpacing,
   TextArea as AscTextArea,
-} from '@amsterdam/asc-ui'
+} from '@remcohoff/asc-ui'
 import ErrorMessage, { ErrorWrapper } from 'components/ErrorMessage'
 
 const lineHeight = 22

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { themeSpacing, themeColor, Heading } from '@amsterdam/asc-ui'
+import { themeSpacing, themeColor, Heading } from '@remcohoff/asc-ui'
 
 export const MapHeading = styled(Heading).attrs({
   forwardedAs: 'h2',

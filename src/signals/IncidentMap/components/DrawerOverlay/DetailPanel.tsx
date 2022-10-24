@@ -2,8 +2,8 @@
 // Copyright (C) 2022 Gemeente Amsterdam
 import { useEffect, useState } from 'react'
 
-import { Close } from '@amsterdam/asc-assets'
-import { Heading } from '@amsterdam/asc-ui'
+import { Close } from '@remcohoff/asc-assets'
+import { Heading } from '@remcohoff/asc-ui'
 import format from 'date-fns/format'
 import nl from 'date-fns/locale/nl'
 

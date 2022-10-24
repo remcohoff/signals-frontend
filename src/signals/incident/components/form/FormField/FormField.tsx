@@ -3,7 +3,7 @@
 import type { FunctionComponent } from 'react'
 import { Fragment } from 'react'
 import styled from 'styled-components'
-import { themeSpacing, themeColor } from '@amsterdam/asc-ui'
+import { themeSpacing, themeColor } from '@remcohoff/asc-ui'
 import Label from 'components/Label'
 import ErrorMessage, { ErrorWrapper } from 'components/ErrorMessage'
 import type {

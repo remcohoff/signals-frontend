@@ -4,7 +4,7 @@ import { Fragment, useMemo, useState } from 'react'
 import type { FunctionComponent, MouseEvent } from 'react'
 import type { History } from 'types/history'
 import HistoryList from 'components/HistoryList'
-import { breakpoint, Link, themeColor, themeSpacing } from '@amsterdam/asc-ui'
+import { breakpoint, Link, themeColor, themeSpacing } from '@remcohoff/asc-ui'
 import styled, { css } from 'styled-components'
 import type { Theme } from 'types/theme'
 

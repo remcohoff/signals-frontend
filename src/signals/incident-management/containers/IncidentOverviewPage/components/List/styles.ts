@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MPL-2.0
 // Copyright (C) 2021 Gemeente Amsterdam
-import { themeSpacing, Icon, themeColor } from '@amsterdam/asc-ui'
+import { themeSpacing, Icon, themeColor } from '@remcohoff/asc-ui'
 import styled from 'styled-components'
 
 export const StyledList = styled.div<{ isLoading?: boolean }>`

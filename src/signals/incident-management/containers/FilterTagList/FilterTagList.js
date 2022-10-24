@@ -5,7 +5,7 @@ import { connect } from 'react-redux'
 import { createStructuredSelector } from 'reselect'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
-import { Tag, themeSpacing } from '@amsterdam/asc-ui'
+import { Tag, themeSpacing } from '@remcohoff/asc-ui'
 import parseISO from 'date-fns/parseISO'
 import format from 'date-fns/format'
 

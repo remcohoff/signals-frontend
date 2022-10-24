@@ -3,7 +3,7 @@
 import type { FunctionComponent } from 'react'
 import type { History } from 'types/history'
 import styled from 'styled-components'
-import { breakpoint, themeColor, themeSpacing } from '@amsterdam/asc-ui'
+import { breakpoint, themeColor, themeSpacing } from '@remcohoff/asc-ui'
 
 import { string2date, string2time } from 'shared/services/string-parser'
 import type { Theme } from 'types/theme'

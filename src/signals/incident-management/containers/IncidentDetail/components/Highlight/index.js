@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { themeColor } from '@amsterdam/asc-ui'
+import { themeColor } from '@remcohoff/asc-ui'
 
 import useEventEmitter from 'hooks/useEventEmitter'
 

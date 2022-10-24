@@ -2,7 +2,7 @@
 // Copyright (C) 2018 - 2022 Gemeente Amsterdam
 import type { BaseSyntheticEvent } from 'react'
 
-import { themeSpacing, themeColor } from '@amsterdam/asc-ui'
+import { themeSpacing, themeColor } from '@remcohoff/asc-ui'
 import NextButton from 'components/NextButton'
 import PreviousButton from 'components/PreviousButton'
 import { WithWizard } from 'react-albus'

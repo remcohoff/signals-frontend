@@ -3,14 +3,14 @@
 import { useCallback } from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { Heading, Link, themeSpacing, themeColor } from '@amsterdam/asc-ui'
+import { Heading, Link, themeSpacing, themeColor } from '@remcohoff/asc-ui'
 import * as types from 'shared/types'
 import {
   parseToAPIData,
   parseOutputFormData,
 } from 'signals/shared/filter/parse'
 import FilterTagList from 'signals/incident-management/containers/FilterTagList'
-import { Checkbox, Label } from '@amsterdam/asc-ui'
+import { Checkbox, Label } from '@remcohoff/asc-ui'
 
 import Refresh from '../../../../../../images/icon-refresh.svg'
 

@@ -2,7 +2,7 @@
 // Copyright (C) 2019 - 2021 Gemeente Amsterdam
 import { Fragment, useContext } from 'react'
 import styled from 'styled-components'
-import { Button, themeColor, themeSpacing } from '@amsterdam/asc-ui'
+import { Button, themeColor, themeSpacing } from '@remcohoff/asc-ui'
 
 import { attachmentsType } from 'shared/types'
 import IncidentDetailContext from '../../../../context'

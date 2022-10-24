@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
-import { Select, themeSpacing } from '@amsterdam/asc-ui'
+import { Select, themeSpacing } from '@remcohoff/asc-ui'
 import styled from 'styled-components'
 
 import type { FC } from 'react'

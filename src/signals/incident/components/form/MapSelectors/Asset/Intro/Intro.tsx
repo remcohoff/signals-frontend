@@ -2,7 +2,7 @@
 // Copyright (C) 2020 - 2021 Gemeente Amsterdam
 import { useContext, useMemo } from 'react'
 
-import { themeSpacing } from '@amsterdam/asc-ui'
+import { themeSpacing } from '@remcohoff/asc-ui'
 import Button from 'components/Button'
 import Map from 'components/Map'
 import type { LatLngTuple, MapOptions } from 'leaflet'

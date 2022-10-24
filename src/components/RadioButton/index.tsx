@@ -2,7 +2,7 @@
 // Copyright (C) 2020 - 2021 Gemeente Amsterdam
 import type { FunctionComponent, InputHTMLAttributes } from 'react'
 import styled from 'styled-components'
-import { Radio, themeSpacing } from '@amsterdam/asc-ui'
+import { Radio, themeSpacing } from '@remcohoff/asc-ui'
 
 const Wrapper = styled.span`
   position: relative;

@@ -9,7 +9,7 @@ import Input from 'components/Input'
 import Button from 'components/Button'
 
 import type { FormInputProps, FormMeta, ParentType } from 'types/reactive-form'
-import { themeSpacing } from '@amsterdam/asc-ui'
+import { themeSpacing } from '@remcohoff/asc-ui'
 import FormField from '../FormField'
 
 const allowedChars = /[\d,.;]+/

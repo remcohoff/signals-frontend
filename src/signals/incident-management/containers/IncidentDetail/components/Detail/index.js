@@ -7,7 +7,7 @@ import {
   themeSpacing,
   Heading,
   Link as AscLink,
-} from '@amsterdam/asc-ui'
+} from '@remcohoff/asc-ui'
 
 import { attachmentsType, contextType } from 'shared/types'
 import { string2date, string2time } from 'shared/services/string-parser'

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MPL-2.0
 // Copyright (C) 2021 Gemeente Amsterdam
 import type { FunctionComponent } from 'react'
-import { List, themeSpacing, ListItem } from '@amsterdam/asc-ui'
+import { List, themeSpacing, ListItem } from '@remcohoff/asc-ui'
 import styled from 'styled-components'
 import type { FeatureStatusType } from 'signals/incident/components/form/MapSelectors/types'
 

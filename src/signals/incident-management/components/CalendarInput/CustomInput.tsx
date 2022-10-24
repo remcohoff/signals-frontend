@@ -2,8 +2,8 @@
 // Copyright (C) 2019 - 2021 Gemeente Amsterdam
 import { forwardRef, Fragment } from 'react'
 import styled from 'styled-components'
-import { Input } from '@amsterdam/asc-ui'
-import { Calendar } from '@amsterdam/asc-assets'
+import { Input } from '@remcohoff/asc-ui'
+import { Calendar } from '@remcohoff/asc-assets'
 
 import Label from 'components/Label'
 

@@ -5,7 +5,7 @@ import { forwardRef } from 'react'
 import type { FC, ReactNode } from 'react'
 import type { SubCategoryOption } from 'models/categories/selectors'
 
-import { Select as AscSelect } from '@amsterdam/asc-ui'
+import { Select as AscSelect } from '@remcohoff/asc-ui'
 
 export type Option = {
   group?: string

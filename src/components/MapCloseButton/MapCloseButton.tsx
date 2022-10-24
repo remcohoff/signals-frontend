@@ -2,7 +2,7 @@
 /* Copyright (C) 2021 Gemeente Amsterdam */
 import type { FunctionComponent } from 'react'
 import { ControlButton } from '@amsterdam/arm-core'
-import { Close } from '@amsterdam/asc-assets'
+import { Close } from '@remcohoff/asc-assets'
 
 interface MapCloseButtonProps {
   className?: string

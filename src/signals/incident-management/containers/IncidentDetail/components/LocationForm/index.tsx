@@ -3,7 +3,7 @@
 import type { FormEvent } from 'react'
 import { useContext } from 'react'
 
-import { Row, Column } from '@amsterdam/asc-ui'
+import { Row, Column } from '@remcohoff/asc-ui'
 import FormFooter from 'components/FormFooter'
 import MapContext from 'containers/MapContext'
 import { useForm, Controller } from 'react-hook-form'

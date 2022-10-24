@@ -2,7 +2,7 @@
 // Copyright (C) 2021 Gemeente Amsterdam
 import { useEffect, useCallback, useMemo, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { Column, Row } from '@amsterdam/asc-ui'
+import { Column, Row } from '@remcohoff/asc-ui'
 import { useDispatch } from 'react-redux'
 
 import LoadingIndicator from 'components/LoadingIndicator'

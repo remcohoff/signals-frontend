@@ -2,7 +2,7 @@
 // Copyright (C) 2018 - 2021 Gemeente Amsterdam
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
-import { themeSpacing } from '@amsterdam/asc-ui'
+import { themeSpacing } from '@remcohoff/asc-ui'
 
 const ImageContainer = styled.div`
   display: flex;
