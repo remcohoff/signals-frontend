@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MPL-2.0
+// Copyright (C) 2022 Gemeente Rotterdam
 import styled from 'styled-components'
 
 type Props = {
