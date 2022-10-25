@@ -1,47 +1,22 @@
 // SPDX-License-Identifier: MPL-2.0
 // Copyright (C) 2018 - 2021 Gemeente Amsterdam
 import type { FunctionComponent } from 'react'
-import { useContext } from 'react'
-import { Link, useHistory } from 'react-router-dom'
-import parseISO from 'date-fns/parseISO'
+
 import differenceInCalendarDays from 'date-fns/differenceInCalendarDays'
-import { Play } from '@remcohoff/asc-assets'
+import parseISO from 'date-fns/parseISO'
+import { Link, useHistory } from 'react-router-dom'
+import styled from 'styled-components'
+
+import { getListIconByKey } from 'shared/services/list-helpers/list-helpers'
+import AddressDisplay from 'signals/incident-management/components/AddressDisplay/AddressDisplay'
+import { statusList } from 'signals/incident-management/definitions'
 
 import { string2date, string2time } from 'shared/services/string-parser'
-import {
-  getListValueByKey,
-  getListIconByKey,
-} from 'shared/services/list-helpers/list-helpers'
-import configuration from 'shared/services/configuration/configuration'
-import { statusList } from 'signals/incident-management/definitions'
-import ParentIncidentIcon from 'components/ParentIncidentIcon'
-
-import type {
-  Status,
-  Priority,
-  Definition,
-} from 'signals/incident-management/definitions/types'
+import type { Priority } from 'signals/incident-management/definitions/types'
 import type { IncidentListItem, IncidentList } from 'types/api/incident-list'
-import { formatAddress } from 'shared/services/format-address'
 import { INCIDENT_URL } from 'signals/incident-management/routes'
-import IncidentManagementContext from '../../../../context'
-import {
-  ContentSpan,
-  Th,
-  ThId,
-  ThDay,
-  TdStyle,
-  ThArea,
-  ThDate,
-  ThParent,
-  ThPriority,
-  ThStatus,
-  ThSubcategory,
-  Tr,
-  StyledList,
-  Table,
-  StyledIcon,
-} from './styles'
+
+import { StyledList, StyledIcon } from './styles'
 
 export const getDaysOpen = (incident: IncidentListItem) => {
   const statusesWithoutDaysOpen = statusList
@@ -59,42 +34,72 @@ export const getDaysOpen = (incident: IncidentListItem) => {
   return differenceInCalendarDays(new Date(), createdAtDate)
 }
 
-const Td: FunctionComponent<{ detailLink: string }> = ({
-  detailLink,
-  children,
-  ...rest
-}) => (
-  <TdStyle {...rest}>
-    <Link to={detailLink} tabIndex={-1}>
-      <ContentSpan>{children}</ContentSpan>
-    </Link>
-  </TdStyle>
-)
-
-const ChildIcon: FunctionComponent = () => (
-  <StyledIcon aria-label="Deelmelding" data-testid="childIcon">
-    <Play />
-  </StyledIcon>
-)
-
 interface ListProps {
   className?: string
   incidents: IncidentList
   isLoading?: boolean
   priority: Priority[]
-  stadsdeel: Definition[]
-  status: Status[]
 }
+
+const SignalContainer = styled.div`
+  display: flex;
+  border-top: 2px solid grey;
+  font-size: 0.8rem;
+
+  &:last-child {
+    border-bottom: 2px solid grey;
+  }
+  a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 5px 0;
+    color: inherit;
+  }
+`
+
+const SignalImage = styled.div`
+  flex: 0 1 25%;
+  min-height: 100px;
+  background: gray;
+  border: 10px solid white;
+`
+
+const SignalInfo = styled.div`
+  flex: 1;
+  h2 {
+    margin: 4px 0 0;
+
+    span {
+      display: inline;
+    }
+  }
+  div {
+    display: flex;
+    justify-items: space-between;
+
+    > span {
+      flex: 1;
+
+      &: last-child {
+        text-align: right;
+      }
+    }
+  }
+
+  .text-light {
+    color: gray;
+  }
+`
 
 const List: FunctionComponent<ListProps> = ({
   className,
   incidents,
   isLoading = false,
   priority,
-  stadsdeel,
-  status,
 }) => {
-  const { districts } = useContext(IncidentManagementContext)
   const history = useHistory()
 
   const navigateToIncident = (id: number) => {
@@ -107,89 +112,59 @@ const List: FunctionComponent<ListProps> = ({
       className={className}
       data-testid="incidentOverviewListComponent"
     >
-      <Table cellSpacing="0">
-        <thead>
-          <tr>
-            <ThParent />
-            <ThPriority />
-            <ThId>Id</ThId>
-            <ThDay>Dag</ThDay>
-            <ThDate>Datum en tijd</ThDate>
-            <ThSubcategory>Subcategorie</ThSubcategory>
-            <ThStatus>Status</ThStatus>
+      <div>
+        {incidents.map((incident) => {
+          const detailLink = `/manage/incident/${incident.id}`
+          const address = incident.location?.address
 
-            {configuration.featureFlags.fetchDistrictsFromBackend ? (
-              <ThArea>{configuration.language.district}</ThArea>
-            ) : (
-              <ThArea>Stadsdeel</ThArea>
-            )}
-
-            <Th>Adres</Th>
-
-            {configuration.featureFlags.assignSignalToEmployee && (
-              <Th>Toegewezen aan</Th>
-            )}
-          </tr>
-        </thead>
-        <tbody>
-          {incidents.map((incident) => {
-            const detailLink = `/manage/incident/${incident.id}`
-            return (
-              <Tr
-                key={incident.id}
-                tabIndex={0}
-                onKeyPress={() => navigateToIncident(incident.id)}
-              >
-                <Td detailLink={detailLink} data-testid="incidentParent">
-                  {incident.has_children && <ParentIncidentIcon />}
-                  {incident.has_parent && <ChildIcon />}
-                </Td>
-                <Td detailLink={detailLink} data-testid="incidentUrgency">
-                  <StyledIcon>
-                    {getListIconByKey(priority, incident.priority?.priority)}
-                  </StyledIcon>
-                </Td>
-                <Td detailLink={detailLink} data-testid="incidentId">
-                  {incident.id}
-                </Td>
-                <Td detailLink={detailLink} data-testid="incidentDaysOpen">
-                  {getDaysOpen(incident)}
-                </Td>
-                <Td detailLink={detailLink} data-testid="incidentCreatedAt">
-                  {string2date(incident.created_at)}{' '}
-                  {string2time(incident.created_at)}
-                </Td>
-                <Td detailLink={detailLink} data-testid="incidentSubcategory">
-                  {incident.category?.sub}
-                </Td>
-                <Td detailLink={detailLink} data-testid="incidentStatus">
-                  {getListValueByKey(status, incident.status?.state)}
-                </Td>
-                <Td detailLink={detailLink} data-testid="incidentArea">
-                  {configuration.featureFlags.fetchDistrictsFromBackend
-                    ? getListValueByKey(districts, incident.location?.area_code)
-                    : getListValueByKey(
-                        stadsdeel,
-                        incident.location?.stadsdeel
-                      )}
-                </Td>
-                <Td detailLink={detailLink} data-testid="incidentAddress">
-                  {incident.location?.address &&
-                    formatAddress(incident.location?.address)}
-                </Td>
-                {configuration.featureFlags.assignSignalToEmployee && (
-                  <Td
-                    detailLink={detailLink}
-                    data-testid="incidentAssignedUser"
-                  >
-                    {incident.assigned_user_email}
-                  </Td>
-                )}
-              </Tr>
-            )
-          })}
-        </tbody>
-      </Table>
+          return (
+            <SignalContainer
+              key={incident.id}
+              tabIndex={0}
+              onKeyPress={() => navigateToIncident(incident.id)}
+            >
+              {address && (
+                <>
+                  <SignalImage>
+                    <Link to={detailLink} tabIndex={-1}>
+                      image
+                    </Link>
+                  </SignalImage>
+                  <SignalInfo>
+                    <Link to={detailLink} tabIndex={-1}>
+                      <h2>
+                        <StyledIcon>
+                          {getListIconByKey(
+                            priority,
+                            incident.priority?.priority
+                          )}
+                        </StyledIcon>{' '}
+                        <AddressDisplay
+                          streetName={address.openbare_ruimte}
+                          streetNumber={address.huisnummer}
+                          suffix={address.huisletter}
+                          etage={address.huisnummer_toevoeging}
+                        />
+                      </h2>
+                      <span className="category">
+                        {incident.category?.sub} -{' '}
+                        {incident.status?.state_display}
+                      </span>
+                      <div>
+                        <span className="text-light">{incident.id}</span>
+                        <span className="text-light">
+                          {string2date(incident.created_at)}{' '}
+                          {string2time(incident.created_at)}
+                        </span>
+                      </div>
+                    </Link>
+                  </SignalInfo>
+                </>
+              )}
+            </SignalContainer>
+          )
+        })}
+      </div>
     </StyledList>
   )
 }

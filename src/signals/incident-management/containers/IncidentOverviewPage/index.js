@@ -260,7 +260,7 @@ export const IncidentOverviewPageContainerComponent = ({
                 {...dataLists}
               />
             )}
-            Hier d enieuwe lijst
+
             {count === 0 && <NoResults>Geen meldingen</NoResults>}
           </Column>
 
